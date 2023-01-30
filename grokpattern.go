@@ -12,7 +12,7 @@ type grokPattern struct {
 }
 
 var (
-	namedReference = regexp.MustCompile(`%{(\w+(?::\w+(?::\w+)?)?)}`)
+	namedReference = regexp.MustCompile(`%{([\w-.]+(?::[\w-.]+(?::[\w-.]+)?)?)}`)
 )
 
 func newPattern(pattern string, knownPatterns patternMap, namedOnly bool) (*grokPattern, error) {

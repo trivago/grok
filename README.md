@@ -1,5 +1,9 @@
 # Grok
 
+> [!CAUTION]
+> This repository has been archived as of October 2025.  
+> If you wish to update or extend this project, please create a fork or extend the upstream repository.
+
 [![GoDoc](https://godoc.org/github.com/trivago/grok?status.svg)](https://godoc.org/github.com/trivago/grok)
 [![Build Status](https://travis-ci.org/trivago/grok.svg)](https://travis-ci.org/trivago/grok)
 [![Coverage Status](https://coveralls.io/repos/github/trivago/grok/badge.svg?branch=master)](https://coveralls.io/github/trivago/grok?branch=master)
